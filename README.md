@@ -1,6 +1,8 @@
 # KUBERNETES:
 
 
+
+
 First, first lets see the Docker vs Kubernetes. Docker is a container platform. Kubernetes is container orchestration platform.
 Containers are in ephemeral in nature. (die and revive anytime). So, if there is docker then why we need to go for Kubernetes, let’s see the practical case now.
 
@@ -63,6 +65,9 @@ As docker does not support Enterprise level container orchestration platform, it
 There are some advanced load balance capabilities such as ingress controllers.
 
 ***K8’s Architecture:***
+
+
+![arch](https://i0.wp.com/cloudwithease.com/wp-content/uploads/2022/09/what-is-kubernetes-dp.jpg?w=800&ssl=1)
 
 Dockers contains containers, but how do they deploy it without container run time just like java and java run time. 
 
