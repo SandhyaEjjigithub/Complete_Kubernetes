@@ -1,5 +1,6 @@
 # KUBERNETES:
 
+
 First, first lets see the Docker vs Kubernetes. Docker is a container platform. Kubernetes is container orchestration platform.
 Containers are in ephemeral in nature. (die and revive anytime). So, if there is docker then why we need to go for Kubernetes, let’s see the practical case now.
 
@@ -87,7 +88,7 @@ who decides the information: API Server. who schedules the jobs: Schedule
 
 **ReplicaSet:** A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are running at any given time. It helps maintain the desired number of identical pods to ensure high availability and scalability of applications. If a pod fails or is deleted, the ReplicaSet automatically replaces it to maintain the desired number of replicas.
 
-1. **Cloud Controller manager (C-C-M):** It facilitates with the interactions between Kubernetes clusters and the underlying cloud provider's services. 
+3. **Cloud Controller manager (C-C-M):** It facilitates with the interactions between Kubernetes clusters and the underlying cloud provider's services. 
 
 It Acts as an intermediary: CCM acts as a bridge between Kubernetes and the cloud provider's APIs. It translates abstract Kubernetes resource requests into cloud-specific actions understood by the cloud provider's APIs.
 
